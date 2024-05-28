@@ -23,5 +23,5 @@ jobs:
         
     - name: Build and test
       run: |
-        xcodebuild -workspace build-test.xcworkspace -scheme build-test -destination 'platform=iOS Simulator,name=iPhone 15' clean build test
+        xcodebuild -workspace build-test.xcworkspace -scheme Pods-build-test -destination 'platform=iOS Simulator,name=iPhone 15' clean build test
 
